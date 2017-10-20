@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[我的第一个博客]]></title>
+    <url>%2F2017%2F10%2F20%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[使用hexo搭建博客 准备工作 git 下载地址 https://git-scm.com/downloads nodejs 下载地址 https://nodejs.org/en/ 安装好两个工具后,创建一个 blog 目录 在目录下右键选择 Git Bash Here hexo 快速、简洁且高效的博客框架下载hexo1$ npm install hexo-cli -g 初始化hexo1$ hexo init 安装hexo依赖1$ npm install 生成1$ hexo generate 或者 $ hexo g 安装 next 主题123$ git clone https://github.com/iissnan/hexo-theme-next themes/next 启动主题与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 站点配置文件， 找到 theme 字段，并将其值更改为 next1theme: next 主题设定Scheme 的切换通过更改 主题配置文件，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 # 去除即可。1scheme: Mist 设置 语言编辑 站点配置文件， 将 language 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：1language: zh-Hans 创建密钥1$ ssh-keygen -t rsa -C &quot;xxxx@163.com&quot; 添加SSH key到你的Github账户1$ clip &lt; ~/.ssh/id_rsa.pub 测试一下1ssh -T git@github.com]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2017%2F10%2F20%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
